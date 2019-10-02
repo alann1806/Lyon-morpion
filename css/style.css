@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+header h1{
+    font-family: 'Monoton', cursive;
+    color: red;
+    font-size: 5rem;
+    font-weight: 50;
+    text-align: center;
+}
+.button-chooser{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.a{
+    font-family: 'Monoton', cursive;
+    color: red;
+    font-size: 3rem;
+    font-weight: 50;
+    background-color: black;
+    margin-left: 20px;
+    border-top: none;
+    letter-spacing: 5px;
+}
+.a:hover{
+    background-color: blue;
+    transition-duration: 1s;
+}
+a{
+    color: red;
+    font-family: 'Monoton', cursive;
+}
+footer a:hover{
+    color: blue;
+    transition-duration: 1s;
+}

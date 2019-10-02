@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+p{
+    font-family: 'Monoton', cursive;
+    font-size: 5rem;
+    font-weight: 50;
+    text-align: center;
+    color: red;
+}
+h1{
+    font-family: 'Monoton', cursive;
+    font-size: 5rem;
+    font-weight: 50;
+    text-align: center;
+}
+.you{
+    color: red;
+}
+.vs{
+    color: blue;
+}
+.friends{
+    color: blue;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.box{
+    height: 360px;
+    width: 32%;
+    margin: none;
+    background-color: black;
+    border: dashed red;
+}
