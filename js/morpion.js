@@ -2,6 +2,7 @@ let aQuiLeTour= 'X';
 const cases = document.querySelectorAll('.case');
 
 
+
 // parcour notre tableau de cases
 cases.forEach(function (element) {
     // acces a chaque element du tableau (element html)

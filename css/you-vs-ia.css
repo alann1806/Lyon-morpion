@@ -37,3 +37,37 @@ h1{
     background-color: black;
     border: dashed red;
 }
+h3{
+    font-family: 'Monoton', cursive;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-family: 'Monoton', cursive;
+    font-size: 2rem;
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    transition-duration: 0.4s;
+}
