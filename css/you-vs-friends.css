@@ -23,17 +23,33 @@ h1{
 .friends{
     color: blue;
 }
-
-.container {
-    display: flex;
-    width: 80%;
-    margin: auto;
-    flex-wrap: wrap;
-}
 .box{
-    height: 360px;
-    width: 32%;
-    margin: none;
-    background-color: black;
-    border: dashed red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    font-family: 'Monoton', cursive;
+    font-size: 36px;
+
+    border: 5px solid red;
+}
+
+.morpion{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 50vh;
+    height: 50vh;
+    border: 5px solid blue;
+}
+
+.case{
+    width: calc(1/3 * 90%);
+    height: calc(1/3 * 90%);
+    border: 5px solid white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
 }
