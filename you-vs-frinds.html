@@ -11,17 +11,22 @@
 </head>
 <body>
     <header>
-            <ul>
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="you-vs-ia.html">you vs IA</a></li>
-                <li><a href="#alan">play</a></li>
-            </ul>
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="you-vs-ia.html">you vs IA</a></li>
+            <li><a href="#alan">play</a></li>
+        </ul>
         <h1><span class="you">you</span> <br>
-            <span class="vs">vs</span><br> 
-            <span class="friends">friends</span></h1>
-        <p>c'est à : joueur</p>
+        <span class="vs">vs</span><br> 
+        <span class="friends">friends</span></h1>
+        
     </header>
     <div id="alan" class="box">
+        <div class="points">
+                <h2>compteur_de_point</h2>
+                <p id="Xacount">X : <span id="joueur1">0 </span> point</p> 
+                <p id="Oacount">O : <span id="joueur2">0 </span> point</p>
+        </div>
         <div class="morpion">
             <div class="case"></div>
             <div class="case"></div>
@@ -33,15 +38,9 @@
             <div class="case"></div>
             <div class="case"></div>
         </div>
-        <button class="ref" id="ref" onclick="location.reload();">refresh</button>
-        <h3>if<br> you <br>think <br> you<br> have<br> lost <br> refresh</h3>
     </div>
-    
 </div> 
 
-<div>
-    
-</div>
 </body>
 <script src="js/morpion.js"></script>
 </html>

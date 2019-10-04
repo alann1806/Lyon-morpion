@@ -1,6 +1,27 @@
 body{
     background-color: black;
 }
+
+h2 {
+    font-family: 'Monoton', cursive;
+    color: red;
+}
+
+.points { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.points h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.points p {
+ font-size: 24px;
+}
 p{
     font-family: 'Monoton', cursive;
     font-size: 5rem;
@@ -24,8 +45,6 @@ h1{
     color: blue;
 }
 .box{
-    display: flex;
-    justify-content: center;
     align-items: center;
     min-height: 100vh;
 
@@ -38,7 +57,8 @@ h1{
 .morpion{
     display: flex;
     flex-wrap: wrap;
-    min-width: 50vh;
+    max-width: 65%;
+    margin: auto;
     height: 50vh;
 }
 
@@ -55,7 +75,7 @@ h1{
 .ref{
     font-family: 'Monoton', cursive;
     background-color: white;
-    color: black;
+    color: rgb(0, 0, 0);
     border: 2px solid #555555;
     outline: none;
     width: 100px;
